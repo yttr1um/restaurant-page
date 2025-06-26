@@ -12,6 +12,11 @@ body {
     display: grid;
     grid-template: 1fr 6fr 1fr / 1fr;
     height: 100vh;
+
+    background-color: #ffffb3;
+    background-image: url('../images/pizza.svg');
+    background-repeat: repeat;
+    background-size: 137px 137px;
 }
 
 header,
@@ -50,8 +55,9 @@ header>nav>button {
 }
 
 #content {
-    background-color: #ffffb3;
-    background-image: url('../images/pizza.svg');
-    background-repeat: repeat;
-    background-size: 147px 147px;
+    margin: 20px 250px;
+    border-radius: 20px;
+
+    background-color: #ffffe6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
